@@ -18,6 +18,42 @@
     refreshPeriod = "168h"
 [".oh-my-zsh/custom/themes/powerlevel10k"]
     type = "archive"
-    url = "https://github.com/romkatv/powerlevel10k/archive/v1.15.0.tar.gz"
+    url = "https://github.com/romkatv/powerlevel10k/archive/master.tar.gz"
     exact = true
     stripComponents = 1
+[".tmux/plugins/tpm"]
+    type = "archive"
+    url = "https://github.com/tmux-plugins/tpm/master.tar.gz"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+[".tmux/plugins/tmux-mem-cpu-load"]
+    type = "archive"
+    url = "https://github.com/thewtex/tmux-mem-cpu-load/master.tar.gz"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+[".tmux/plugins/tmux-sensible"]
+    type = "archive"
+    url = "https://github.com/tmux-plugins/tmux-sensible/master.tar.gz"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+[".tmux/plugins/tmux-online-status"]
+    type = "archive"
+    url = "https://github.com/tmux-plugins/tmux-online-status/master.tar.gz"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+[".tmux/plugins/tmux-battery"]
+    type = "archive"
+    url = "https://github.com/tmux-plugins/tmux-battery/master.tar.gz"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+[".tmux/plugins/tmux-menus"]
+    type = "archive"
+    url = "https://github.com/jaclu/tmux-menus/master.tar.gz"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
