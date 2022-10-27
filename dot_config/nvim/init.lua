@@ -14,11 +14,14 @@ vim.opt.wildmode = "longest,list"
 vim.cmd [[
   syntax enable
   set nocompatible
+  nnoremap <C-f> :NERDTreeFocus<CR>
+  nnoremap <C-n> :NERDTree<CR>
+  nnoremap <C-t> :NERDTreeToggle<CR>
 ]]
 vim.opt.shell = "/bin/zsh"
 vim.opt.ttyfast = true
 vim.opt.clipboard = "unnamedplus"
---vim.opt.guifont = "Iosevka Nerd Font Mono"
+vim.opt.guifont = "JetBrains Mono NFM"
 vim.opt.ruler = true
 vim.opt.visualbell = true
 vim.opt.encoding = "utf-8"
@@ -40,3 +43,13 @@ vim.cmd [[
 require("lualine").setup {
     options = {theme = "gruvbox"}
 }
+
+require('nvim-treesitter.configs').setup {
+    highlight = {
+        enable = true,
+    },
+}
+
+vim.g.mapleader = ","
+
+require('nvim-autopairs').setup {}
