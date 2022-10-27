@@ -25,22 +25,22 @@
     type = "git-repo"
     url = "https://github.com/tmux-plugins/tpm"
     refreshPeriod = "168h"
-[".fonts/JetBrainsMono]
+[".fonts/JetBrainsMono"]
     type = "archive"
     url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip"
     exact = true
     stripComponents = 1
-[".fonts/Meslo]
+[".fonts/Meslo"]
     type = "archive"
     url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Meslo.zip"
     exact = true
     stripComponents = 1
-[".fonts/RobotoMono]
+[".fonts/RobotoMono"]
     type = "archive"
     url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/RobotoMono.zip"
     exact = true
     stripComponents = 1
-[".fonts/SourceCodePro]
+[".fonts/SourceCodePro"]
     type = "archive"
     url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/SourceCodePro.zip"
     exact = true
