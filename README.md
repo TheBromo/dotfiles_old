@@ -2,8 +2,8 @@
 
 ## Todos
 
-- [ ] Put Fonts into .chezmoiexternal (https://github.com/twpayne/dotfiles/blob/master/home/.chezmoiexternal.toml)
-- [ ] Fix Tmux external download
+- [X] Put Fonts into .chezmoiexternal (https://github.com/twpayne/dotfiles/blob/master/home/.chezmoiexternal.toml)
+- [X] Fix Tmux external download
 - [ ] Make Nvim config
 - [ ] Add Nvim config
 - [ ] Add setup Scripts for windows, wsl and Fedora
