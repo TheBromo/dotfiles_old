@@ -1,5 +1,9 @@
 # This are my dotfiles
 
+## Code Formatters
+ If you want to find code formatters look under the following link: https://github.com/sbdchd/neoformat 
+
+
 ## Todos
 
 - [X] Put Fonts into .chezmoiexternal (https://github.com/twpayne/dotfiles/blob/master/home/.chezmoiexternal.toml)

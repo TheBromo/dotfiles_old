@@ -1,3 +1,5 @@
+require("plugins")
+
 vim.opt.showmatch = true
 vim.opt.ignorecase = true
 vim.opt.mouse = "v" --middle mouse click paste
@@ -27,3 +29,14 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 --vim.opt.nobackup = true
 --vim.opt.nowritebackup = true
+--
+vim.cmd [[
+  let g:gruvbox_contrast_dark='medium'
+  let g:gruvbox_contrast_light='hard'
+  colorscheme gruvbox
+  hi LspCxxHlGroupMemberVariable guifg=#83a598
+]]
+
+require("lualine").setup {
+    options = {theme = "gruvbox"}
+}
