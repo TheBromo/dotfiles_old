@@ -38,18 +38,22 @@ vim.cmd [[
   let g:gruvbox_contrast_light='hard'
   colorscheme gruvbox
   hi LspCxxHlGroupMemberVariable guifg=#83a598
+
+  let g:rainbow_active = 1
+
+  nmap <F8> :TagbarToggle<CR>
 ]]
 
 require("lualine").setup {
     options = {theme = "gruvbox"}
 }
 
-require('nvim-treesitter.configs').setup {
+require("nvim-treesitter.configs").setup {
     highlight = {
-        enable = true,
-    },
+        enable = true
+    }
 }
 
 vim.g.mapleader = ","
 
-require('nvim-autopairs').setup {}
+

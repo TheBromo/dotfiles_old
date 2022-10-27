@@ -14,11 +14,26 @@ return require("packer").startup(
         use "sbdchd/neoformat"
         -- File Explorer
         use "preservim/nerdtree"
-        --
+        -- Forgor
         use "windwp/nvim-autopairs"
-        use "preservim/vimux"
-        use "easymotion/vim-easymotion"
+        -- Tmux Optimization
+		use "preservim/vimux"
+        --Investigate best usage
+		use "easymotion/vim-easymotion"
+		--better Syntax hilighting
         use "nvim-treesitter/nvim-treesitter"
         use "luochen1990/rainbow"
+
+        --LSP Config and Autocomplete
+        use "neovim/nvim-lspconfig"
+        use "hrsh7th/cmp-nvim-lsp"
+        use "hrsh7th/cmp-buffer"
+        use "hrsh7th/cmp-path"
+        use "hrsh7th/cmp-cmdline"
+        use "hrsh7th/nvim-cmp"
+
+        --For vsnip users.
+        use "hrsh7th/cmp-vsnip"
+        use "hrsh7th/vim-vsnip"
     end
 )
