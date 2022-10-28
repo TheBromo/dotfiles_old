@@ -17,10 +17,10 @@ return require("packer").startup(
         -- I Forgor 💀
         use "windwp/nvim-autopairs"
         -- Tmux Optimization
-	use "preservim/vimux"
+        use "preservim/vimux"
         --Investigate best usage
-	use "easymotion/vim-easymotion"
-	--better Syntax hilighting
+        use "easymotion/vim-easymotion"
+        --better Syntax hilighting
         use "nvim-treesitter/nvim-treesitter"
         use "luochen1990/rainbow"
 
@@ -35,5 +35,4 @@ return require("packer").startup(
         --For vsnip users.
         use "hrsh7th/cmp-vsnip"
         use "hrsh7th/vim-vsnip"
-    end
-)
+end)
