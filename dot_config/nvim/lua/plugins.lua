@@ -14,25 +14,33 @@ return require("packer").startup(
         use "sbdchd/neoformat"
         -- File Explorer
         use "preservim/nerdtree"
-        -- I Forgor 💀
+        -- Forgor
         use "windwp/nvim-autopairs"
         -- Tmux Optimization
         use "preservim/vimux"
         --Investigate best usage
         use "easymotion/vim-easymotion"
         --better Syntax hilighting
-        use "nvim-treesitter/nvim-treesitter"
+        use {
+            "nvim-treesitter/nvim-treesitter",
+            run = function()
+                require("nvim-treesitter.install").update({with_sync = true})
+            end
+        }
         use "luochen1990/rainbow"
 
         --LSP Config and Autocomplete
-        use "neovim/nvim-lspconfig"
+        use {
+            "williamboman/nvim-lsp-installer",
+            "neovim/nvim-lspconfig"
+        }
         use "hrsh7th/cmp-nvim-lsp"
         use "hrsh7th/cmp-buffer"
         use "hrsh7th/cmp-path"
         use "hrsh7th/cmp-cmdline"
         use "hrsh7th/nvim-cmp"
-
         --For vsnip users.
         use "hrsh7th/cmp-vsnip"
         use "hrsh7th/vim-vsnip"
-end)
+    end
+)
