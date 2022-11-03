@@ -1,4 +1,6 @@
-# This are my dotfiles
+# This are my dotfiles 
+
+# NVIM IS NOT COMPLETELY WORKING SO DON'T EVEN BOTHER LOOKING AT IT!
 
 ## Code Formatters
  If you want to find code formatters look under the following link: https://github.com/sbdchd/neoformat 
