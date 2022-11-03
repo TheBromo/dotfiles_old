@@ -27,17 +27,17 @@
     refreshPeriod = "168h"
 [".fonts/JetBrainsMono"]
     type = "archive"
-    url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip"
+    url = "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip"
     exact = true
 [".fonts/Meslo"]
     type = "archive"
-    url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Meslo.zip"
+    url = "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Meslo.zip"
     exact = true
 [".fonts/RobotoMono"]
     type = "archive"
-    url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/RobotoMono.zip"
+    url = "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/RobotoMono.zip"
     exact = true
 [".fonts/SourceCodePro"]
     type = "archive"
-    url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/SourceCodePro.zip"
+    url = "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/SourceCodePro.zip"
     exact = true
